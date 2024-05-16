@@ -1,10 +1,10 @@
 package com.developer.devoteemanagementsystem.repository;
 
-import com.developer.devoteemanagementsystem.entity.DevoteeEntity;
+import com.developer.devoteemanagementsystem.entity.SadhanaDetailsEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface DevoteeRepository extends JpaRepository<DevoteeEntity,Long> {
+public interface SadhanaDetailsRepository extends JpaRepository<SadhanaDetailsEntity,Long> {
 
 }
